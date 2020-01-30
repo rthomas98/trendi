@@ -93,20 +93,6 @@
 
             <?php
 
-            $client_focus_image_one = get_field('client_focus_image_one');
-
-            if( !empty($client_focus_image_one) ): ?>
-
-                <img class="img-fluid" src="<?php echo $client_focus_image_one['url']; ?>" alt="<?php echo $client_focus_image_one['alt']; ?>" width="" />
-
-            <?php endif; ?>
-        </div>
-    </div>
-    <div class="row mb-4">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-
-            <?php
-
             $client_focus_image_two = get_field('client_focus_image_two');
 
             if( !empty($client_focus_image_two) ): ?>
@@ -114,8 +100,9 @@
                 <img class="img-fluid" src="<?php echo $client_focus_image_two['url']; ?>" alt="<?php echo $client_focus_image_two['alt']; ?>" width="" />
 
             <?php endif; ?>
-
         </div>
+    </div>
+    <div class="row mb-4">
         <div class="col-sm-12 col-md-12 col-lg-6">
 
             <?php
@@ -127,12 +114,25 @@
                 <img class="img-fluid" src="<?php echo $client_focus_image_three['url']; ?>" alt="<?php echo $client_focus_image_three['alt']; ?>" width="" />
 
             <?php endif; ?>
+
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
+
+            <?php
+
+            $client_focus_image_four = get_field('client_focus_image_four');
+
+            if( !empty($client_focus_image_four) ): ?>
+
+                <img class="img-fluid" src="<?php echo $client_focus_image_four['url']; ?>" alt="<?php echo $client_focus_image_four['alt']; ?>" width="" />
+
+            <?php endif; ?>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row mb-4">
         <div class="col">
             <?php the_field('client_relationships_title'); ?>
         </div>
@@ -150,9 +150,9 @@
                 $client_relationships_link = get_sub_field('client_relationships_link');
                 ?>
                 <div class="col-sm-6 col-md-6 col-lg-3">
-                    <div class="txt-overlay" style="height: 500px;">
+                    <div class="txt-overlay service-box">
                         <div class="overlay"></div>
-                        <img src="<?php echo $client_relationships_image['url']; ?>" alt="<?php echo $client_relationships_image['alt'] ?>" />
+                        <img class="img-fluid" src="<?php echo $client_relationships_image['url']; ?>" alt="<?php echo $client_relationships_image['alt'] ?>" />
                         <div class="bottom-left p-3">
                             <?php echo $client_relationships_content; ?>
                             <p>

@@ -67,6 +67,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="<?php echo site_url('/internet-marketing') ?>">Internet Marketing</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="<?php echo site_url('/pay-per-click-advertising') ?>">Pay Per Click Advertising</a>
                         </li>
                         <li class="nav-item">

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a5ff0e-fe18-4f3d-a885-6c5a08ebd60e" name="Default Changelist" comment="" />
+    <list default="true" id="13a5ff0e-fe18-4f3d-a885-6c5a08ebd60e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/recent-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/recent-projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/work-with-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/work-with-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-chi-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-chi-seo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-dallas-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-dallas-seo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-internet-marketing.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-internet-marketing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-los-seo.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-los-seo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-ppc.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-ppc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-seo-company.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-seo-company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-seo-faqs.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-seo-faqs.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +28,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WXMRLeTowumVPKY1aLDMlIIP4w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,7 +76,11 @@
       <workItem from="1579291479689" duration="360000" />
       <workItem from="1579632958631" duration="2746000" />
       <workItem from="1579717432574" duration="603000" />
-      <workItem from="1579718667573" duration="28027000" />
+      <workItem from="1579718667573" duration="28617000" />
+      <workItem from="1579891886047" duration="7503000" />
+      <workItem from="1580236002372" duration="15000" />
+      <workItem from="1580307512721" duration="14140000" />
+      <workItem from="1580327677619" duration="6757000" />
     </task>
     <servers />
   </component>
@@ -64,9 +88,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="615" y="-794" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580327658644">
+      <screen x="-33" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="615" y="-794" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-33.-1057.1920.1057/0.23.1680.1027/1887.-1057.1920.1057@-33.-1057.1920.1057" timestamp="1580327658644" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1579719134961">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027/0.-1027.1680.1027@0.23.1680.1027" timestamp="1579719134961" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1579894701538">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/0.-1027.1680.1027@0.23.1680.1027" timestamp="1579894701538" />
   </component>
 </project>

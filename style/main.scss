@@ -28,6 +28,7 @@ html {
   line-height: 1.4;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -358,6 +359,31 @@ textarea {
 
 }
 
+.sub-banner {
+  height: 100%;
+  position: relative;
+  color: white;
+}
+
+.sub-banner:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--tm-black);
+  opacity: .5;
+}
+
+.sub-context {
+
+  h1 {
+    font-size: 80px;
+  }
+
+}
+
 .work-with-us {
   height: 350px;
   position: relative;
@@ -475,6 +501,30 @@ textarea {
   border-radius: 50px;
 }
 
+.btn-red-outline {
+  background: transparent;
+  color: white;
+  border: 1px solid var(--tm-red);
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.btn-red-outline:hover {
+  background: var(--tm-red);
+  color: white !important;
+  border: 1px solid var(--tm-red);
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+
+.btn-red:hover {
+  background: var(--tm-red-hover);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -493,12 +543,30 @@ textarea {
   color: white;
 }
 
+.bg-blue {
+  background: var(--tm-blue);
+  color: white;
+
+  i {
+    color: var(--tm-gold);
+    font-size: 58px;
+  }
+}
+
 .txt-gold {
  color: var(--tm-gold) !important;
 }
 
 .txt-white {
   color: white;
+}
+
+.txt-red {
+  color: var(--tm-red) !important;
+}
+
+.txt-blue {
+  color: var(--tm-blue) !important;
 }
 
 .txt-overlay {
@@ -542,6 +610,38 @@ textarea {
 .red-arrow i:hover {
   color: var(--tm-red-hover);
   font-size: 38px;
+}
+
+.service-box {
+  color: white;
+}
+
+.faq-box {
+  background: var(--tm-grey);
+
+  i {
+    color: var(--tm-black);
+  }
+  .lead {
+    color: var(--tm-black);
+  }
+  p {
+    color: var(--tm-black);
+  }
+}
+
+.faq-box:hover, .faq-box.active {
+  background: var(--tm-black);
+
+  i {
+    color: var(--tm-gold);
+  }
+  .lead {
+    color: var(--tm-blue);
+  }
+  p {
+    color: white;
+  }
 }
 
 /*
