@@ -25,12 +25,12 @@
 
 <div class="container mb-5">
     <div class="row">
-        <div class="ol-sm-12 col-md-12 col-lg-6 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center">
             <div class="my-auto container">
                 <?php the_field('internet_marketing_intro_content'); ?>
             </div>
         </div>
-        <div class="ol-sm-12 col-md-12 col-lg-6 p-0 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 p-0 d-flex justify-content-center">
             <div class="my-auto col">
                 <?php
 

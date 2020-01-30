@@ -200,7 +200,7 @@ textarea {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 22px;
   color: white;
   display: block;
   transition: 0.3s;
@@ -538,10 +538,32 @@ textarea {
   color: white;
 }
 
+.bg-gold {
+  background: var(--tm-gold);
+  color: white;
+}
+
 .bg-red {
   background: var(--tm-red);
   color: white;
 }
+
+.bg-black-horz {
+  background: linear-gradient(180deg, var(--tm-black) 60%, white 40%);
+}
+
+.bg-split-blue {
+  background: linear-gradient(90deg, var(--tm-black) 60%, var(--tm-blue) 40%);
+}
+
+.bg-split-red {
+  background: linear-gradient(90deg, var(--tm-red) 60%, var(--tm-black) 40%);
+}
+
+.bg-split-gold {
+  background: linear-gradient(90deg, var(--tm-black) 60%, var(--tm-gold) 40%);
+}
+
 
 .bg-blue {
   background: var(--tm-blue);
